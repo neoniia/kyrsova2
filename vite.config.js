@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => {
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
-    base: command === 'serve' ? '/' : '/js-curse-project/',
+    base: command === 'serve' ? '/' : '/kyrsova2/',
     root: 'src',
     css: {
       preprocessorOptions: {
